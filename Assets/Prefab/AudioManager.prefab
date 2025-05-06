@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6558629580006953964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558629580006953966}
+  - component: {fileID: 3065615412718513831}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558629580006953966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558629580006953964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0267699, y: -0.14645858, z: -1.2447563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3065615412718513831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558629580006953964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00767153c02000749bdb7578019f50e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: run
+    clip: {fileID: 8300000, guid: f9887f47f53801b44b1c8e9c1cff1427, type: 3}
+    volume: 0.07
+    volumeVariance: 0.3
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 292fdff4b3ba64d418bbe2cbf4d5272f, type: 3}
+    volume: 0.32
+    volumeVariance: 0.66
+    pitch: 1.53
+    pitchVariance: 0.53
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: swing1
+    clip: {fileID: 8300000, guid: 6b67b51ab04c29a4daf98168a53d05fe, type: 3}
+    volume: 0.28
+    volumeVariance: 0.55
+    pitch: 1.25
+    pitchVariance: 0.3
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: swing2
+    clip: {fileID: 8300000, guid: d1c5801f8b886334ca1ff9f622d6e028, type: 3}
+    volume: 0.22
+    volumeVariance: 0.55
+    pitch: 1.8
+    pitchVariance: 0.3
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: pickup1
+    clip: {fileID: 8300000, guid: 2d9f42dffed1dcf4e8bd54c1345a854c, type: 3}
+    volume: 0.55
+    volumeVariance: 0.53
+    pitch: 1.36
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: hurt
+    clip: {fileID: 8300000, guid: cfa2f7f9c3c5ae4479f5d1ec1d435b03, type: 3}
+    volume: 1
+    volumeVariance: 0.57
+    pitch: 1.36
+    pitchVariance: 0.45
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: shield
+    clip: {fileID: 8300000, guid: 54958695a4589054da10a1c8eaf079c7, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.25
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: land
+    clip: {fileID: 8300000, guid: d3001a62bb95f28479b6df09c63da835, type: 3}
+    volume: 0.32
+    volumeVariance: 0.4
+    pitch: 1.25
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: LevelBG
+    clip: {fileID: 8300000, guid: 05f4e91d91e75124c8407f20511b5f1e, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossh1
+    clip: {fileID: 8300000, guid: e88a51f416140f74e98ffbde692f7685, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossh2
+    clip: {fileID: 8300000, guid: b2b2afa2ff0a5884f9ad124c018b7d5c, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossh3
+    clip: {fileID: 8300000, guid: bea97cbe3a36ce8418e04b3d911f8f9a, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossd1
+    clip: {fileID: 8300000, guid: 4508a6c1e2d3c4e4784019cfb804bc02, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossd2
+    clip: {fileID: 8300000, guid: 861ca6688f454994a81df95332f27d5e, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossd3
+    clip: {fileID: 8300000, guid: 1b23f97991bda17419b815e2885505a8, type: 3}
+    volume: 0.3
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: eh
+    clip: {fileID: 8300000, guid: 9a95929bd5209d0489df7ab843b56676, type: 3}
+    volume: 0.4
+    volumeVariance: 0.4
+    pitch: 1.5
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ed
+    clip: {fileID: 8300000, guid: b88dd1a817f8df548b0a2c9a95c0afec, type: 3}
+    volume: 0.4
+    volumeVariance: 0.4
+    pitch: 1.74
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm1
+    clip: {fileID: 8300000, guid: a41e975da3fad2649a12ea71df0241e3, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm2
+    clip: {fileID: 8300000, guid: 6a7789473d085f243af2f1d8dbc20cb2, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm3
+    clip: {fileID: 8300000, guid: ba299bdf13b598c49b21e1dde62ad79f, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm4
+    clip: {fileID: 8300000, guid: f5fc25320c9ff3642b92daf8e153dc0e, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: pickup2
+    clip: {fileID: 8300000, guid: 982a73edab7df264e86d0faa0bb4d647, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: arrow
+    clip: {fileID: 8300000, guid: 3c3f496462a2d924b9b9fc8ec8d963e4, type: 3}
+    volume: 0.4
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: poof
+    clip: {fileID: 8300000, guid: 8867e4264cc41434093de47076000023, type: 3}
+    volume: 0.5
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm6
+    clip: {fileID: 8300000, guid: 28e66aacdc73c214d81dfc7587e3c5f0, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: bossm5
+    clip: {fileID: 8300000, guid: ba299bdf13b598c49b21e1dde62ad79f, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: upgradebttn
+    clip: {fileID: 8300000, guid: 832170742fe643f468005597fe21fe0b, type: 3}
+    volume: 0.2
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: backbttn
+    clip: {fileID: 8300000, guid: 2b99ec409676a0547a9697c80b585bb0, type: 3}
+    volume: 0.5
+    volumeVariance: 0.4
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: clickbttn
+    clip: {fileID: 8300000, guid: c270bb737e414dc4a91262b15f700986, type: 3}
+    volume: 0.4
+    volumeVariance: 0.32
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: WC Sword
+    clip: {fileID: 8300000, guid: fa5817d42bcfb04419cad9afa6dc8256, type: 3}
+    volume: 0.2
+    volumeVariance: 0.31
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 6c51e9d002a58434c85dd0b07626854a, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: MainMenuBG
+    clip: {fileID: 8300000, guid: d899cd8b5a1676e4682cb60261ac9dff, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: BossBG
+    clip: {fileID: 8300000, guid: bbfddce639c31834ba939ca1f51a1162, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Congratulations
+    clip: {fileID: 8300000, guid: 2f8b8a7cba9cdff419392a31942a750f, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: EvilLaugh
+    clip: {fileID: 8300000, guid: 5cf2513a208ec644b876e17370ff794d, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: f5240e79cc2a98b41888dbd0d260fce6, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Heavy Impact
+    clip: {fileID: 8300000, guid: 1fcd14a01447cf6469578f8d2bc254e6, type: 3}
+    volume: 0.8
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

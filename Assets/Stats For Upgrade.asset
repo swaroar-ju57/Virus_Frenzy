@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e957c33c002c364e828ac6a0a23c193, type: 3}
+  m_Name: Stats For Upgrade
+  m_EditorClassIdentifier: 
+  SwordSprites:
+  - {fileID: -3753208720850287192, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  - {fileID: 1788537757812611731, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  - {fileID: 6119393413296988655, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  DmgOf3Swords: 140000002800000041000000
+  ShieldSprites:
+  - {fileID: -8246008999528893678, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  - {fileID: -310372344041145399, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  - {fileID: -4392508173402376218, guid: ae06175a1fd61e64983a4eb8cc4b3b7f, type: 3}
+  BlockCountOf3Shields: 030000000400000006000000
+  DifferentHealthAmount: c800000045010000c2010000
+  BowSprites:
+  - {fileID: 21300000, guid: e3438a82f7541424399753c707223d93, type: 3}
+  - {fileID: 21300000, guid: e5d224b2f5fcd5f49aa6cfea49e94297, type: 3}
+  - {fileID: 21300000, guid: f8bbb65e8cacde947a7ccf2027ab5e50, type: 3}
+  ArrowSprites:
+  - {fileID: 21300000, guid: 9a5aff5d640d0594c9d1e5eda1d8d504, type: 3}
+  - {fileID: 21300000, guid: 5f4291f2584bc524a9f1a51b609c7123, type: 3}
+  - {fileID: 21300000, guid: 6b0a1a3e1ffa37840ba2acf7064c151d, type: 3}
+  DmgOf3Bows: 0f0000001900000023000000
